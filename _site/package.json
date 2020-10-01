@@ -1,0 +1,28 @@
+{
+  "name": "jekyll-test",
+  "version": "1.0.0",
+  "description": "POC for jekyll build and testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcdalton2201/jekyll-test.git"
+  },
+  "author": "Jason Dalton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcdalton2201/jekyll-test/issues"
+  },
+  "homepage": "https://github.com/jcdalton2201/jekyll-test#readme",
+  "dependencies": {
+    "axe-puppeteer": "^1.1.0",
+    "chalk": "^4.1.0",
+    "differencify": "^1.5.5",
+    "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^6.0.0",
+    "nyc": "^15.1.0",
+    "puppeteer-to-istanbul": "^1.4.0"
+  }
+}

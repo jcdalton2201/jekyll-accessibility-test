@@ -17,17 +17,6 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    # container:
-    #   image:  node:10.16-jessie
-    # services:
-    #   jekyll:
-    #     image: jcdalton2201/jekyll-ci-cd
-    #     # options: --env JEKYLL_ENV=local --entrypoint="jekyll serve --watch --incremental --force_polling"
-    #     ports:
-    #         - 4000:4000
-    #     options: "-v /home/runner/work/jekyll-test/jekyll-test:/srv/jekyll"
-        # volumes: 
-        #     - /home/runner/work/jekyll-test/jekyll-test:/srv/jekyll
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
